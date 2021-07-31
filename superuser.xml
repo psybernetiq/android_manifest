@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="superuser"
+           fetch="https://github.com/LineageOS"
+	       review="review.lineageos.org" />
+
+ <!-- adding superuser binary -->
+  <project name="Superuser" path="external/koush/Superuser" remote="superuser" revision="master" />
+  <project name="Widgets" path="external/koush/Widgets" remote="superuser" revision="master" />
+</manifest>
